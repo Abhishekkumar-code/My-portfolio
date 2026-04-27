@@ -28,6 +28,11 @@ app.post('/api/likes', async (req, res) => {
   )
   res.json({ count: data.count })
 })
+
+app.use(cors({
+  origin: 'https://my-portfolio-3kru.onrender.com',
+  methods: ['GET', 'POST']
+}))
 app.get('/{*splat}', (req, res) => {
   res.sendFile(path.join(__dirname, '..', 'dist', 'index.html'))
 })
