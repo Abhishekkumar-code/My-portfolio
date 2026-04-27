@@ -1,0 +1,134 @@
+/**
+
+* @file: profile.config.ts
+* @author: Abhishek Kumar
+* @summary: Frontend-focused Full-Stack Developer building responsive and scalable web applications.
+  */
+
+// --------------------------------------------------
+// 1. CORE DEPENDENCIES & SKILLS
+// --------------------------------------------------
+
+const TECH_STACK = {
+frontend: [
+"HTML5 (Semantic & SEO Friendly)",
+"CSS3 / SCSS (Responsive Design, Flexbox, Grid)",
+"JavaScript (ES6+, DOM Manipulation)",
+"React.js (Hooks, Component Architecture, SPA)"
+],
+backend: [
+"Node.js (REST API Development)",
+"Express.js (Routing, Middleware)",
+],
+database: [
+"MongoDB ( CRUD Operations)"
+],
+tools: [
+"Git & GitHub (Version Control)",
+"VS Code",
+"Postman (API Testing)"
+]
+};
+
+// --------------------------------------------------
+// 2. EXPERIENCE LOG (Reverse Chronological)
+// --------------------------------------------------
+
+class ProfessionalHistory {
+
+/**
+
+* INTERNSHIP EXPERIENCE
+* @company Redsaky Advance Solution Pvt Ltd
+* @period 2025
+  */
+  public async Redsaky_Internship(): Promise {
+  const role = "Frontend Developer Intern";
+
+```
+return {
+```
+
+```
+  impact: [
+    "Cleared technical interview to secure internship opportunity",
+    "Developed responsive UI components using HTML, CSS, and React.js",
+    "Worked on real-world projects improving UI/UX and performance",
+    "Collaborated with team using Git for version control",
+    "Integrated frontend with backend APIs"
+  ]
+};
+```
+
+}
+}
+
+// --------------------------------------------------
+// 3. ACADEMIC BACKGROUND
+// --------------------------------------------------
+
+const education = new Map<string, string>([
+["CT Institute of Technology and Research", "B.Tech (6th Semester - Pursuing)"]
+]);
+
+// --------------------------------------------------
+// 4. PROJECTS
+// --------------------------------------------------
+
+const PROJECTS = [
+{
+name: "Email Spam Classification App",
+stack: ["Node.js", "Express.js", "Machine Learning (Naive Bayes)"],
+impact: "Built a system to classify emails as spam or not spam with good accuracy"
+},
+{
+name: "Developer Portfolio",
+stack: ["React.js", "SCSS"],
+impact: "Designed a responsive and interactive portfolio with terminal-style UI"
+}
+];
+
+// --------------------------------------------------
+// 5. SYSTEM STATUS
+// --------------------------------------------------
+
+const SYSTEM_STATUS = {
+status: "Open to Opportunities",
+role: "Full Stack  Developer",
+location: "India / Remote Ready"
+};
+
+export default new ProfessionalHistory();
+
+// --------------------------------------------------
+// TERMINAL OUTPUT
+// --------------------------------------------------
+
+/*
+$ whoami
+
+> Abhishek Kumar - Frontend Developer
+
+$ skills --list
+
+> HTML | CSS | JavaScript | React | Node.js | Express
+
+$ experience
+
+> Redsaky Advance Solution Pvt Ltd - Frontend Intern
+
+$ projects
+
+
+
+> EduSecureAi
+> QR Based Entry/Exit Syetem With Telegram Bot
+> Email Spam Classifier
+> weather App for my college
+> Developer Portfolio
+
+$ status
+
+> Open to Opportunities
+> Ready.
+> */

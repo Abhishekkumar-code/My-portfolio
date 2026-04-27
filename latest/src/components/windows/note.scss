@@ -1,0 +1,50 @@
+.note-window {
+  padding: 16px;
+  font-family: "Fira Code", monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #d4d4d4;
+
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: break-word;
+
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* Headings */
+.note-window h1,
+.note-window h2,
+.note-window h3 {
+  margin-top: 16px;
+  color: #ffffff;
+}
+
+/* Paragraph */
+.note-window p {
+  margin: 10px 0;
+}
+
+/* Inline code */
+.note-window code {
+  background: #1e1e1e;
+  padding: 2px 6px;
+  border-radius: 5px;
+  color: #ffcc66;
+}
+
+/* Code block */
+.note-window pre {
+  background: #1e1e1e;
+  padding: 12px;
+  border-radius: 10px;
+  margin: 10px 0;
+
+  overflow-x: auto;   // ✅ scroll only here
+}
+
+/* Remove extra scroll issue */
+.note-window pre code {
+  white-space: pre;
+}

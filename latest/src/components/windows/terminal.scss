@@ -1,0 +1,10 @@
+.terminal-window {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+overflow: auto;}
+
+.terminal-window > * {
+  flex: 1;
+ 
+}
